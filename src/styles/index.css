@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Recursive', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav.navegacion{
+  z-index: 999;
+  background-color: rgb(41, 41, 41);
+}
+
+/*.navbar-light .navbar-brand,.navbar-light .navbar-nav a.nav-item{
+  color: rgb(207, 204, 204);
+}
+
+.navbar-light .navbar-nav a.nav-item.active{
+  color: white;
+}*/
+
+.encage{
+  width: fit-content !important;
+}
+
+input.buscador{
+  border: none;
+  padding: 5px;
+  outline-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgb(199, 198, 198);
+}
+
+.text-gris{
+  color: rgb(124, 124, 124);
+}
+.card{
+  border: none;
+}
+
+.card-body{
+  border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.parallax-window {
+  /*min-height: 400px;*/
+  background: transparent;
+}
+
+.container-fluid{
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-gameplay-card{
+  width: 100%;
+  height: auto;
+}
+
+@supports(object-fit: cover){
+  .img-gameplay-card{
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.linea{
+  border: 1px solid red;
+}
+
+.slide{
+    background-image: url("../img/slide1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-carta{
+  max-height: 300px;
+}
+
+.card-img-top{
+  height: 100%;
+  max-height: 200px;
+  min-height: 199px;
+  width: 100%;
+  
+}
+
+.titulo{
+  /*width: 235px;*/
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  /*font-size: 32px;
+  */
+}
+
+.titulo h2{
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /**margin-left: 10px;*/
+  border-bottom: 4px solid #2297DB;
+}
+
+.titulo h3{
+  font-weight: 400;
+}
+
+a.btn-fav{
+  cursor: pointer;
+  text-decoration-style: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #2297DB;
+  color: white;
+  transition-duration: .5s;
+  -webkit-box-shadow: 0px 1px 17px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 17px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 17px -8px rgba(0,0,0,0.75);
+}
+
+a.btn-fav:hover{
+  color:#2297DB;
+  background-color: white;
+  transition-duration: .5s;
+}
+
+
+
+.pie-pagina{
+  background-color: rgb(41, 41, 41);
+}
